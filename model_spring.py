@@ -397,7 +397,7 @@ if __name__ == "__main__":
     Vh1 = dl.FunctionSpace(mesh, 'Lagrange', 1)
     Vh = [Vh2, Vh1, Vh2]
     
-    prior = BiLaplacianPrior(Vh[PARAMETER], gamma=1e-1, delta=1e-1)
+    prior = BiLaplacianPrior(Vh[PARAMETER], gamma=4e-1, delta=1e-1)
     model = Elasticity(mesh, Vh, prior)
         
  #   m0 = dl.interpolate(dl.Expression("x[1] + 2.2", element=Vh[PARAMETER].ufl_element()), Vh[PARAMETER])
