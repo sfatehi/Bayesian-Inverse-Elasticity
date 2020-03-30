@@ -1,2 +1,2 @@
 # Bayesian-Inverse-Elasticity
-This repository entails a Bayesian Inversion framework to identify non-homogenous Young's modulus parameter field of slender structurres.
+This repository entails a Bayesian Inversion framework to identify non-homogenous Young's modulus parameter field of slender structurres. The python codes are compilable in conjunction with the hIPPYlib - Inverse Problem PYthon library which can be found here: https://hippylib.github.io/. The examples to demonstrate the performance of the framework include (1) a planar canetilever under bending deformation, and (2) a helical rod subject to extension.
